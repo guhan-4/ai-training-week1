@@ -23,4 +23,4 @@ result = order.groupby("customer_id").agg(
     orders=("order_id", "count")
 )
 
-print("\nTHE RESULT IS:\n\t",result)
+print("\nTHE RESULT IS:\n",result)

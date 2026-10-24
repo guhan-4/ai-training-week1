@@ -87,3 +87,31 @@ def delete_student(student_id:int):
         return{
             "message":"Student not found"
         }
+
+
+
+
+
+
+
+        git config --global user.name "Guhan"
+
+        git config --global user.email "student@example.com"
+        
+        
+git config --global user.name "guhan"
+git config --global user.email "student@example.com"
+git init
+git status
+git add .
+git commit -m "Initial commit"
+git remote add origin 
+git branch -M main
+
+git push -u origin main
+
+
+
+if the push not work pull
+
+git pull --rebase origin main
