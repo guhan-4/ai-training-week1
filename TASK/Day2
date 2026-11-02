@@ -1,0 +1,7 @@
+NAME='GUHA'
+print(NAME)
+
+def day2():
+    return print('welcome to day 2')
+
+print(day2())

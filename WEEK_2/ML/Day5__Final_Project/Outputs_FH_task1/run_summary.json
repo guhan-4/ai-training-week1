@@ -1,0 +1,17 @@
+{
+  "dataset": "data\\WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "rows": 7043,
+  "test_fraction": 0.2,
+  "random_state": 42,
+  "optimization_metric": "F1",
+  "selected_threshold": 0.6199999999999998,
+  "test_f1": 0.6137440758293838,
+  "test_roc_auc": 0.8412978893797307,
+  "assumptions": [
+    "Telco Customer Churn data with Yes/No or 1/0 target.",
+    "customerID is an identifier and is excluded from predictors.",
+    "Blank TotalCharges values are missing and are median-imputed.",
+    "Rows are independent and a stratified random split is appropriate.",
+    "F1 is optimized because the classes are imbalanced and both missed churners and false alerts matter."
+  ]
+}
