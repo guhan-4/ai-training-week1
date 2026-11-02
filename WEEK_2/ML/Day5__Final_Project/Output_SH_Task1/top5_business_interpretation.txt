@@ -1,0 +1,8 @@
+Best validation model: Logistic Regression
+Feature importance indicates predictive association, not a causal driver of churn.
+
+- MonthlyCharges (2.2729): Higher monthly bills can increase price sensitivity; review plan fit and value communication.
+- InternetService_Fiber optic (1.4718): Fiber customers may have higher service expectations; reliability and support experience matter.
+- InternetService_DSL (1.1810): This feature distinguishes a customer segment; use it to guide investigation and tailored retention actions, not as a causal explanation.
+- tenure (1.1743): Customer tenure captures relationship length; newer customers often need stronger onboarding and early support.
+- Contract_Two year (0.8314): Two-year contract customers are generally more committed; a high importance may reflect lower churn risk.
